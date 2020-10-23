@@ -70,9 +70,11 @@ a:hover {
   position: absolute;
   width: auto;
 }
+
 .sponsored .badge {
   color: #3581f4;
 }
+
 .debate {
   border-bottom: 4px solid #d9d9d9;
   border-top: 4px solid #d9d9d9;
