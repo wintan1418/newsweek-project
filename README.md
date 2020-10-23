@@ -3,7 +3,7 @@
 
 # The Newsweek Clone
 
-> This project is responsive clone of the The Next Web website.
+> This project is responsive clone of the The News week website built with meticulous skill of bootstrap and very few css codes.
 
 ![screenshot](images/screenshot.png)
 
@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://sinansevgi.github.io/NextWebClone/)
+[Live Demo Link](https://raw.githack.com/wintan1418/newsweek-project/feature-branch/index.html)
 
 ## Authors
 
