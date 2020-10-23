@@ -23,7 +23,6 @@ p {
   text-align: inherit;
   text-decoration: inherit;
   color: inherit;
-
 }
 
 /* Global Setting */
@@ -74,7 +73,6 @@ a:hover {
 .sponsored .badge {
   color: #3581f4;
 }
-
 .debate {
   border-bottom: 4px solid #d9d9d9;
   border-top: 4px solid #d9d9d9;
