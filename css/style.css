@@ -70,31 +70,7 @@ a:hover {
   width: auto;
 }
 
-.culture .badge {
-  background: #c2d4d7;
-  color: #000;
-  font-size: 0.9rem;
-}
 
-.badge-magazine {
-  font-size: 15px;
-}
-
-.card {
-  border: 0;
-}
-
-.section-title {
-  color: #9a9a9a;
-}
-
-.card-title {
-  font-size: 1.3rem;
-}
-
-.my-turn {
-  color: #9a9a9a;
-}
 
 .sponsored .badge {
   color: #3581f4;
@@ -116,7 +92,31 @@ a:hover {
   position: absolute;
   right: 0;
 }
-
+.culture .badge {
+    background: #c2d4d7;
+    color: #000;
+    font-size: 0.9rem;
+  }
+  
+  .badge-magazine {
+    font-size: 15px;
+  }
+  
+  .card {
+    border: 0;
+  }
+  
+  .section-title {
+    color: #9a9a9a;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .my-turn {
+    color: #9a9a9a;
+  }
 .vs-debate::before {
   top: 35%;
 }
@@ -186,7 +186,7 @@ h2.text-danger {
     background-size: cover;
   }
   
-  
+  /* media query section for different breakpoint */
   
   @media screen and (max-width: 991px) {
     .header-top {
