@@ -23,12 +23,12 @@ p {
   text-align: inherit;
   text-decoration: inherit;
   color: inherit;
-  
+
 }
 
 /* Global Setting */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -52,10 +52,12 @@ p {
 .features h3 {
   font-size: 15px;
 }
+
 a:hover {
   color: #f72210;
   text-decoration: none;
 }
+
 /* Main container */
 
 .main .badge,
@@ -69,9 +71,6 @@ a:hover {
   position: absolute;
   width: auto;
 }
-
-
-
 .sponsored .badge {
   color: #3581f4;
 }
@@ -92,31 +91,33 @@ a:hover {
   position: absolute;
   right: 0;
 }
+
 .culture .badge {
-    background: #c2d4d7;
-    color: #000;
-    font-size: 0.9rem;
-  }
-  
-  .badge-magazine {
-    font-size: 15px;
-  }
-  
-  .card {
-    border: 0;
-  }
-  
-  .section-title {
-    color: #9a9a9a;
-  }
-  
-  .card-title {
-    font-size: 1.3rem;
-  }
-  
-  .my-turn {
-    color: #9a9a9a;
-  }
+  background: #c2d4d7;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.badge-magazine {
+  font-size: 15px;
+}
+
+.card {
+  border: 0;
+}
+
+.section-title {
+  color: #9a9a9a;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.my-turn {
+  color: #9a9a9a;
+}
+
 .vs-debate::before {
   top: 35%;
 }
@@ -139,77 +140,78 @@ a:hover {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center no-repeat;
   background-size: cover;
 }
+
 h2.text-danger {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.newsletter {
+  height: 94%;
+}
+
+.opinion {
+  font-size: 14px;
+}
+
+.articles {
+  padding: 6rem;
+}
+
+#image-1 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
+  background-size: cover;
+}
+
+#image-2 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
+  background-size: cover;
+}
+
+#image-3 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
+  background-size: cover;
+}
+
+#image-4 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
+  background-size: cover;
+}
+
+#image-5 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
+  background-size: cover;
+}
+
+#image-6 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
+  background-size: cover;
+}
+
+/* media query section for different breakpoint */
+
+@media screen and (max-width: 991px) {
+  .header-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }
-  
-  .newsletter {
-    height: 94%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .vs-debate div {
+    width: 3%;
   }
-  
-  .opinion {
-    font-size: 14px;
-  }
-  
+
   .articles {
-    padding: 6rem;
+    padding: 5rem;
   }
-  
-  #image-1 {
-    background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
-    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .articles {
+    padding: 8rem;
   }
-  
-  #image-2 {
-    background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
-    background-size: cover;
-  }
-  
-  #image-3 {
-    background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
-    background-size: cover;
-  }
-  
-  #image-4 {
-    background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
-    background-size: cover;
-  }
-  
-  #image-5 {
-    background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
-    background-size: cover;
-  }
-  
-  #image-6 {
-    background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753) no-repeat center;
-    background-size: cover;
-  }
-  
-  /* media query section for different breakpoint */
-  
-  @media screen and (max-width: 991px) {
-    .header-top {
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      z-index: 1030;
-    }
-  }
-  
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    .vs-debate div {
-      width: 3%;
-    }
-  
-    .articles {
-      padding: 5rem;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .articles {
-      padding: 8rem;
-    }
-  }
+}
