@@ -1,0 +1,62 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  background: transparent;
+  list-style: none;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  
+}
+
+/* Global Setting */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  color: #333;
+  font-weight: 80;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.features {
+  background-color: #f4f5f6;
+}
+
+.features h3 {
+  font-size: 15px;
+}
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+.navbar nav {
+    justify-content: space-between;
+    margin-right: 2em;
+}
