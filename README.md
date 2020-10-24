@@ -5,7 +5,7 @@
 
 > This project is responsive clone of the The News week website built with meticulous skill of bootstrap and very few css codes.
 
-![screenshot](images/screenshot.png)
+![screenshot](images/project-screenshot.png)
 
 
 ## Built With
