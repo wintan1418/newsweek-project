@@ -65,7 +65,7 @@ a:hover {
   height: 100%;
 }
 
-#sub {
+#sub-font {
   font-size: larger;
 }
 
@@ -73,13 +73,12 @@ a:hover {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background: #ffffFfE6;
+  background: #ffffFfe6;
 }
 
 #header-nav {
   justify-content: space-between;
   font-size: 19px;
-
 }
 
 #search {
@@ -98,7 +97,7 @@ a:hover {
   width: 100px;
   background-color: #f72210;
   border-left: 12px solid white;
-  border-top: 13px solid #F72210
+  border-top: 13px solid #f72210;
 }
 
 /* Main container */
@@ -259,5 +258,3 @@ h2.text-danger {
     padding: 8rem;
   }
 }
-
-/* end of styling */
