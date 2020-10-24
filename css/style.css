@@ -57,6 +57,38 @@ a:hover {
   text-decoration: none;
 }
 
+#header-menu {
+  background-color: #f72210;
+}
+
+#middle-logo {
+  height: 100%;
+}
+
+#sub {
+  font-size: larger;
+}
+
+#bottom-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: #ffffFfE6;
+}
+/* #last-nav {
+  padding-left: 0px;
+} */
+#header-nav{
+  justify-content: space-between;
+  font-size: 19px;
+  
+}
+#search{
+  height: 100%;
+}
+.nav-child{
+  font-weight: bolder;
+}
 /* Main container */
 
 .main .badge,
@@ -215,4 +247,5 @@ h2.text-danger {
     padding: 8rem;
   }
 }
+
 /* end of styling */
