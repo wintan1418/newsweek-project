@@ -65,10 +65,10 @@ a:hover {
   height: 100%;
 }
 
-#bottom-left {
+.bottom-left {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   background: #ffffffe6;
 }
 
