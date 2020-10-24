@@ -65,14 +65,10 @@ a:hover {
   height: 100%;
 }
 
-#mit-font {
-  font-size: larger;
-}
-
 #bottom-left {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   background: #ffffffe6;
 }
 
