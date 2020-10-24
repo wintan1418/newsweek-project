@@ -65,7 +65,7 @@ a:hover {
   height: 100%;
 }
 
-#sub-font {
+#mit-font {
   font-size: larger;
 }
 
@@ -73,7 +73,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ffffFfe6;
+  background: #ffffffe6;
 }
 
 #header-nav {
