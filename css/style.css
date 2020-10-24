@@ -86,21 +86,19 @@ a:hover {
   height: 100%;
 }
 
-/* .nav-child {
-  font-weight: bolder;
-} */
-.width{
+.width {
   width: 71px;
 }
+
 #header-nav::after {
-  position:absolute;
-  top:0;
-  right:0;
-  content:"";
-  width:100px;
-  background-color:#f72210;
-  border-left:12px solid white;
-  border-top:13px solid #F72210
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #F72210
 }
 
 /* Main container */
