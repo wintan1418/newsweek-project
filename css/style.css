@@ -23,6 +23,7 @@ p {
   text-align: inherit;
   text-decoration: inherit;
   color: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Global Setting */
@@ -52,6 +53,10 @@ p {
   font-size: 15px;
 }
 
+.lower-nav {
+  overflow-x: auto;
+}
+
 a:hover {
   color: #f72210;
   text-decoration: none;
@@ -63,7 +68,9 @@ a:hover {
 }
 
 #middle-logo {
-  height: 100%;
+  height: auto;
+  width: 130px;
+  
 }
 
 .bottom-left {
@@ -76,13 +83,22 @@ a:hover {
 #search {
   height: 100%;
 }
+.footer-ul {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 .width {
   width: 71px;
 }
+.subscribe-btn {
+  background-color: #f72210;
+}
 
-.nav-child-link {
+.nav-link {
   font-weight: bolder;
+}
+.first-navbar,.newsweek-undernote{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #header-nav::after {
@@ -252,5 +268,10 @@ h2.text-danger {
 @media screen and (max-width: 767px) {
   .articles {
     padding: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  #middle-logo {
+    width: 395px;
   }
 }
