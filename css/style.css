@@ -99,7 +99,8 @@ a:hover {
   font-weight: bolder;
 }
 
-.first-navbar,.newsweek-undernote {
+.first-navbar,
+.newsweek-undernote {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
