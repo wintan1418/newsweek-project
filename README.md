@@ -32,6 +32,6 @@
 
 ## �� Contributing
 You can freely contribute to this project by:
- cloning this repo directly to your work station and raising issues,both positive and notify if you feel it could be more improved,thank you!.
+ cloning this repo directly to your work station and raising issues,both positive and notify me if you feel it could be more improved,thank you!.
 ## Show your support
 Give a ⭐️ if you like this project!
