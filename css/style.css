@@ -1,0 +1,281 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  background: transparent;
+  list-style: none;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Global Setting */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  color: #333;
+  font-weight: 80;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.features {
+  background-color: #f4f5f6;
+}
+
+.features h3 {
+  font-size: 15px;
+}
+
+.lower-nav {
+  overflow-x: auto;
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#header-menu {
+  background-color: #f72210;
+  width: 100%;
+}
+
+#middle-logo {
+  height: auto;
+  width: 130px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ffffffe6;
+}
+
+#search {
+  height: 100%;
+}
+
+.footer-ul {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.width {
+  width: 71px;
+}
+
+.subscribe-btn {
+  background-color: #f72210;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+
+.first-navbar,
+.newsweek-undernote {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header-nav::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+/* Main container */
+
+.main .badge,
+.magazine .badge {
+  background: #e8e7e8;
+  border-radius: 0;
+  bottom: 0;
+  color: #f72210;
+  font-size: 1rem;
+  left: 0;
+  position: absolute;
+  width: auto;
+}
+
+.sponsored .badge {
+  color: #3581f4;
+}
+
+.debate {
+  border-bottom: 4px solid #d9d9d9;
+  border-top: 4px solid #d9d9d9;
+  line-height: 20px;
+}
+
+.vs-debate::before,
+.vs-debate::after {
+  background-color: #d9d9d9;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.culture .badge {
+  background: #c2d4d7;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.badge-magazine {
+  font-size: 15px;
+}
+
+.card {
+  border: 0;
+}
+
+.section-title {
+  color: #9a9a9a;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.my-turn {
+  color: #9a9a9a;
+}
+
+.vs-debate::before {
+  top: 35%;
+}
+
+.vs-debate::after {
+  top: 50%;
+}
+
+.vs-debate div {
+  width: 10%;
+  z-index: 1;
+}
+
+.img-current {
+  top: 10%;
+  left: 25%;
+}
+
+.background-newsletter {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)center no-repeat;
+  background-size: cover;
+}
+
+h2.text-danger {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.newsletter {
+  height: 94%;
+}
+
+.opinion {
+  font-size: 14px;
+}
+
+.articles {
+  padding: 6rem;
+}
+
+#image-1 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753)no-repeat center;
+  background-size: cover;
+}
+
+#image-2 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a)no-repeat center;
+  background-size: cover;
+}
+
+#image-3 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a) no-repeat center;
+  background-size: cover;
+}
+
+#image-4 {
+  background: url(https://d.newsweek.com/en/full/1642296/joe-biden-donald-trump.webp?w=466&h=311&q=90&f=aeec2a85ab35ef9f233f2e222698a54a)no-repeat center;
+  background-size: cover;
+}
+
+#image-5 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753)no-repeat center;
+  background-size: cover;
+}
+
+#image-6 {
+  background: url(https://d.newsweek.com/en/full/1635849/nsa-headquarters-maryland-viewed-2010.webp?w=466&h=311&q=90&f=37efd47e51613624843ccc626f7c1753)no-repeat center;
+  background-size: cover;
+}
+
+/* media query section for different breakpoint */
+
+@media screen and (max-width: 991px) {
+  .header-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .vs-debate div {
+    width: 3%;
+  }
+
+  .articles {
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .articles {
+    padding: 8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #middle-logo {
+    width: 395px;
+  }
+}
