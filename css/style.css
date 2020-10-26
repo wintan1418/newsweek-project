@@ -70,7 +70,6 @@ a:hover {
 #middle-logo {
   height: auto;
   width: 130px;
-  
 }
 
 .bottom-left {
@@ -83,6 +82,7 @@ a:hover {
 #search {
   height: 100%;
 }
+
 .footer-ul {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -90,6 +90,7 @@ a:hover {
 .width {
   width: 71px;
 }
+
 .subscribe-btn {
   background-color: #f72210;
 }
@@ -97,7 +98,8 @@ a:hover {
 .nav-link {
   font-weight: bolder;
 }
-.first-navbar,.newsweek-undernote{
+
+.first-navbar,.newsweek-undernote {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -270,6 +272,7 @@ h2.text-danger {
     padding: 8rem;
   }
 }
+
 @media screen and (min-width: 992px) {
   #middle-logo {
     width: 395px;
